@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Besnik.</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/Favicon.png" />
+
+  <!-- Slick Slider CSS Link -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+  <!-- FontAwesome Icon Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div class="header-logo">
+        <a href="#" target="_blank"><img src="images/Logo.png" alt="" /></a>
+      </div>
+      <ul id="nav-menu" class="navigation-menu">
+        <li class="li_">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Features</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div>
+        <button type="button" class="btn-sign-in">Sign in</button>
+        <button type="button" class="btn-sign-up">Sign up</button>
+      </div>
+    </nav>
+    <div class="nav-links-mobile container">
+      <svg id="menu-btn" xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+        <rect width="18" height="2" fill="#0B1F22" />
+        <rect y="7" width="18" height="2" fill="#0B1F22" />
+        <rect y="14" width="18" height="2" fill="#0B1F22" />
+      </svg>
+    </div>
+  </header>
+
+  <!-- Banner Start -->
+  <div class="banner container">
+    <div class="banner-content">
+      <p class="banner-content-label">😎 EASY LEAENING PLATFORM</p>
+      <h1 class="banner-content-title">Words learner come here.</h1>
+      <p class="banner-content-desc">
+        Build skills with courses, certificates, and get online knowledge from
+        our world-class platform.
+      </p>
+      <div class="banner-content-inner">
+        <a href="#" target="_blank">
+          <button class="banner-content-btn" type="button">
+            Get Started
+          </button>
+        </a>
+        <a class="modal-open banner-content-icon" href="#play-video" data-youtube-id="ze_ie8Ctp60">▶</a>
+
+        <!-- Modal Code -->
+        <div class="modal">
+          <div class="background"></div>
+          <div class="box">
+            <div class="close">✖</div>
+            <h6>Video</h6>
+            <div class="content">
+              <div class="responsive-video">
+                <iframe id="video" src="https://www.youtube.com/embed/JMHNS-kCEz4?si=Y2Z9_KetXHUjjrQG"
+                  frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Youtube Modal End  -->
+
+      </div>
+    </div>
+    <div class="banner-image">
+      <div style="width: 100%;">
+        <img src="images/Content.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Banner End -->
+
+  <!-- Features Start -->
+  <div class="features container">
+    <p class="features-lable">Features</p>
+    <h2 class="features-title">
+      We are providing suitable features for students.
+    </h2>
+    <p class="features-desc">
+      Read our awesome feature that is absolutely suit for you. Explore the
+      feature and know the best.
+    </p>
+  </div>
+  <div class="features-cards container">
+    <div class="features-card">
+      <img src="images/F_Icon_1.svg" alt="" />
+      <p class="features-card-title">Live Class</p>
+      <p class="features-card-liveclass-desc">
+        We are providing live classes with the best teacher for you
+      </p>
+    </div>
+    <div class="features-card">
+      <img src="images/F_Icon_2.svg" alt="" />
+      <p class="features-card-title">Discuss</p>
+      <p class="features-card-discuss-desc">
+        Conversation with teachers or another students about task or any other
+        thing
+      </p>
+    </div>
+    <div class="features-card">
+      <img src="images/F_Icon_3.svg" alt="" />
+      <p class="features-card-title">Task</p>
+      <p class="features-card-task-desc">
+        We give every of our students task for gathering knowledge at home
+      </p>
+    </div>
+  </div>
+  <!-- Features End -->
+
+  <!-- Courses Start -->
+  <div class="courses container">
+    <div class="">
+      <p class="courses-label">Courses</p>
+      <h2 class="courses-title">Popular Courses</h2>
+      <p class="courses-desc">
+        Check out our most poular courses that suit for you. Here you can find
+        your favourite one.
+      </p>
+    </div>
+    <div class="courses-link">
+      <a href="#" target="_blank">View All Courses</a>
+    </div>
+  </div>
+  <div class="courses-images container">
+    <div class="courses-image">
+      <img src="images/Course_img1.png" alt="" />
+      <div class="courses-content">
+        <h2 class="courses-content-title">Web Design</h2>
+        <p>Fee <span>$200</span></p>
+        <p>Web design basic to higer level</p>
+        <ul>
+          <li><span class="dot"></span>40 Classes</li>
+          <li><span class="dot"></span>3 Months</li>
+        </ul>
+      </div>
+    </div>
+    <div class="courses-image">
+      <img src="images/Course_img2.png" alt="" />
+      <div class="courses-content">
+        <h2 class="courses-content-title">Web Development</h2>
+        <p>Fee <span>$250</span></p>
+        <p>Web dev basic to higer level</p>
+        <ul>
+          <li><span class="dot"></span>30 Classes</li>
+          <li><span class="dot"></span>3 Months</li>
+        </ul>
+      </div>
+    </div>
+    <div class="courses-image">
+      <img src="images/Course_img3.png" alt="" />
+      <div class="courses-content">
+        <h2 class="courses-content-title">UI/UX Design</h2>
+        <p>Fee <span>$350</span></p>
+        <p>UI/UX design basic to higer level</p>
+        <ul>
+          <li><span class="dot"></span>50 Classes</li>
+          <li><span class="dot"></span>4 Months</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Courses End -->
+
+  <!-- Countdown Start -->
+  <div class="countdown container">
+    <div class="countdown-inner">
+      <h2 class="countdown-title">100+</h2>
+      <p class="countdown-desc">Popular Course</p>
+    </div>
+    <div class="countdown-inner">
+      <h2 class="countdown-title">500+</h2>
+      <p class="countdown-desc">Skilled Trainer</p>
+    </div>
+    <div class="countdown-inner">
+      <h2 class="countdown-title">1M+</h2>
+      <p class="countdown-desc">Student Learning</p>
+    </div>
+  </div>
+  <!-- Countdown End -->
+
+  <!-- Testimonial Start -->
+  <div class="container">
+    <div class="testimonial-main">
+      <div class="slider">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <h1>
+              <h2>
+                “They are the best people. And this is the suitable platform to
+                learn from distance.”
+              </h2>
+              <br />
+              <p>- <b>Ben Foakes,</b> student.</p>
+            </h1>
+          </div>
+
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <h1>
+              <h2>
+                “They are the best people. And this is the suitable platform to
+                learn from distance.”
+              </h2>
+              <br />
+              <p>- <b>Ben Foakes,</b> student.</p>
+            </h1>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <h1>
+              <h2>
+                “They are the best people. And this is the suitable platform to
+                learn from distance.”
+              </h2>
+              <br />
+              <p>- <b>Ben Foakes,</b> student.</p>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-image">
+        <img src="images/Testimonial_Image.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial End -->
+
+  <!-- CTA Start -->
+  <div class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2 class="cta-title">Ready to Get Admit</h2>
+        <p class="cta-desc">Create your account and Boost your Career.</p>
+      </div>
+      <div class="cta-btn">
+        <a href="#" target="_blank"><button type="button">Get Started</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- CTA End -->
+
+  <!-- Footer Start -->
+  <div class="container">
+    <div class="footer">
+      <div class="footer-logo ">
+        <img src="images/Logo.png" alt="" />
+      </div>
+      <div class="footer-inner">
+        <p>Company</p>
+        <div class="footer-inner-link">
+          <a href="#" target="_blank">About</a>
+          <a href="#" target="_blank">Careers</a>
+          <a href="#" target="_blank">Press</a>
+        </div>
+      </div>
+      <div class="footer-inner">
+        <p>Community</p>
+        <div class="footer-inner-link">
+          <a href="#" target="_blank">Team Plans</a>
+          <a href="#" target="_blank">Blog</a>
+          <a href="#" target="_blank">Students</a>
+          <a href="#" target="_blank">Schoolarships</a>
+        </div>
+      </div>
+      <div class="footer-inner">
+        <p>Teaching</p>
+        <div class="footer-inner-link">
+          <a href="#" target="_blank">Become a teacher</a>
+          <a href="#" target="_blank">Teaching academy</a>
+        </div>
+      </div>
+      <div class="footer-inner">
+        <p>Be social</p>
+        <div class="footer-social-icon">
+          <img src="images/Twitter.svg" alt="" />
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+        <div class="footer-social-icon">
+          <img src="images/Facebook.svg" alt="" />
+          <a href="#" target="_blank">Facebook</a>
+        </div>
+        <div class="footer-social-icon">
+          <img src="images/Instagram.svg" alt="" />
+          <a href="#" target="_blank">Instagram</a>
+        </div>
+        <div class="footer-social-icon">
+          <img src="images/LinkedIn.svg" alt="" />
+          <a href="#" target="_blank">Linkedin</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© Copyright 2020 by Mayad Ahmed. All right reserved.</p>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Script Start -->
+
+  <script src="slick.min.js"></script>
+  <script>
+    // document.getElementById("menu-btn").addEventListener("click", () => {
+    //   document.getElementById("menu-btn").classList.toggle("is-active")
+    //   document.getElementById("nav-menu").classList.toggle("is-active")
+    // })
+
+    // Responsive Menu Start
+    $(document).ready(function () {
+      $("#menu-btn").click(function () {
+        $("#menu-btn").toggleClass("is-active");
+        $("#nav-menu").toggleClass("is-active");
+      });
+    });
+    // Responsive Menu End
+
+    // Youtube Model Start
+    // Open Modal
+    jQuery('.modal-open').click(function () {
+      jQuery('.modal').fadeIn();
+    });
+
+    // Close Modal
+    jQuery('.modal .close').click(function () {
+      jQuery('.modal').fadeOut();
+    });
+    // Youtube Model End
+  </script>
+  <!-- jQuery CDN Script -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Slick Slider Script -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script type="text/javascript">
+    // Testimonials Slider
+    $(".slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      // autoplaySpeed: 1000,
+      prevArrow: '<img src="images/left-arrow.png" alt="" class="left_arrow"/>',
+      nextArrow: '<img src="images/right-arrow.png" alt="" class="right_arrow"/>',
+      // prevArrow: '<i class="fas fa-angle-left left_arrow" >',
+      // nextArrow: '<i class="fas fa-angle-right right_arrow" >',
+    });
+  </script>
+
+  <!-- Script End -->
+</body>
+
+</html>
